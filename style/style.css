@@ -417,8 +417,8 @@ a.google span {
 
 /* Support */
 input {
-    height: 100%;
-    width: 60%;
+    height: 25px;
+    width: 90%;
     border: none;
     font-size: 16px;
     font-weight: 400;
