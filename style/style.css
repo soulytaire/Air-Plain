@@ -237,6 +237,15 @@ p {
     column-gap: 30px;
 }
 
+.container_formsSupport {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
 .form {
     position: absolute;
     min-width: 430px;
