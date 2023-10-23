@@ -178,7 +178,7 @@ function getParameterByName(name, url = window.location.href) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-function showComplite() {
+function showComplete() {
     var name = getParameterByName('name');
     var from = getParameterByName('from');
     var to = getParameterByName('to');
