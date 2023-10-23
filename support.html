@@ -40,17 +40,20 @@
             <p>There you can contact to us or send an email by click on the <a
                     href="mailto:someone@example.com">link</a></p>
             <form action="">
-                <section>
-                    <div class="input">
+                <section class="container_formsSupport">
+		  <div class="form login">
+
+                    <div class="field input-field">
                         <input type="email" placeholder="Enter your email">
                     </div>
-                    <div class="input">
+                    <div class="field input-field">
                         <input type="text" class="topic" placeholder="Topic">
                     </div>
-                    <div class="input">
+                    <div class="field input-field">
                         <input type="text" class="question" placeholder="Type your question, request or proposal">
                     </div>
-                    <td><input type="submit" value="Book"></td>
+                    <div class="field button-field"><input type="submit" value="Send" onclick='javascript:alert("ok!")'></div>
+		  </div>
                 </section>
             </form>
         </div>
