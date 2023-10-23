@@ -63,7 +63,6 @@ function validateForm() {
         document.getElementById("date").focus();
         return false;
 
-
     }
 
 
@@ -165,7 +164,6 @@ function validateFormLogin() {
         }
     }
 }
-
 
 
 
