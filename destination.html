@@ -39,7 +39,7 @@
 
             <h1>Visit <b id="capital"></b></h1>
             Current tempirature is <b id="curtemp"></b> &#8451;<br>
-            <img src="/media/belgrade.jpg" id="countryphoto" alt="destinantion">
+            <img src="/media/bulgaria.jpg" id="countryphoto" alt="destinantion">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates optio quaerat maxime. Id eaque, harum
                 possimus corporis dolor accusantium? Mollitia rerum quidem ab neque voluptatibus unde, sapiente earum
                 aut sint.</p>
@@ -90,8 +90,12 @@
 
             <script>
                 var cityName = getParameterByName('capital');
+		var countryphoto = "/media/"+cityName+".jpg";
+		document.getElementById("countryphoto").src = countryphoto;
+
                 document.getElementById("capital").innerText = cityName;
                 fetchTemperature(cityName);
+
             </script>
 
         </div>
