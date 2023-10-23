@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Air Plain</title>
+</head>
+
+<body>
+    <DIV class="div-main">
+        <div>
+
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <a href="/index.html"><img src="/media/plane.png" alt=""></a>
+                        </div>
+                        <nav class="nav">
+                            <a class="nav__link" href="/index.html">Home</a>
+                            <a class="nav__link" href="/tickets.html">Tickets</a>
+                            <a class="nav__link" href="/support.html">Support</a>
+                            <button class="nav__link nav__link--btn"><a href="/login.html">Log in</a></button>
+                        </nav>
+
+
+                    </div>
+                </div>
+
+            </header>
+            <hr class="intro">
+
+        </div>
+
+        <div class="container">
+            <p>Sign the form</p>
+            <p>Fill in the form to book your flight!</p>
+
+            <form action="/complete.html" method="get" onsubmit="return validateForm()">
+                <table style="width: 500px; border: 1px solid #ccc;">
+                    <tr>
+                        <td>Full name</td>
+                        <td><input type="text" id="name" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>From</td>
+                        <td><input type="text" id="from" name="from"></td>
+                    </tr>
+                    <tr>
+                        <td>To</td>
+                        <td><input type="text" id="to" name="to"></td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td><input type="date" id="date" name="date" min="2023-10-20"></td>
+                    </tr>
+                    <tr>
+                        <td>Passengers</td>
+                        <td><input type="number" id="passengers" name="passengers" value="1" min="1" max="10"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Cabin class</td>
+                        <td>
+                            <select id="cabin" name="cabin">
+                                <option value="">[select a class]</option>
+                                <option value="economy" name="economy">Economy</option>
+                                <option value="first" name="first">First class</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Preffered seat</td>
+                        <td>
+                            <select id="seat" name="seat">
+                                <option value="">--</option>
+                                <option value="front" name="front">Near the front</option>
+                                <option value="wing" name="wing">Near the wing</option>
+                                <option value="back" name="back">Near the back</option>
+                                <option value="window" name="window">Near the window</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="Book"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div>
+            <hr class="end">
+            <footer>
+                <div class="footer">
+                    <div class="nav__end">
+
+                        <a href="/index.html">Home</a>
+                        <a href="/tickets.html">Tickets</a>
+                        <a href="/support.html">Support</a>
+                        <a href="/contact.html">Contact</a>
+
+
+                    </div>
+                    <div class="buttons">
+                        <div class="button" title="Instagram">
+                            <a href="https://instagram.com">
+                                <img src="instagram-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="button" title="Facebook">
+
+                            <a href="https://facebook.com">
+                                <img src="facebook-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="button" title="LinkedIn">
+                            <a href="https://linkedIn.com">
+                                <img src="internet-linkedln-media-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p id="end">&copy; Sofia Khairullina </p>
+            </footer>
+
+        </div>
+
+    </DIV>
+
+    <script src="/javascript/main.js"></script>
+    <script>
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Air Plain</title>
+</head>
+
+<body>
+    <DIV class="div-main">
+        <div>
+
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <a href="/index.html"><img src="media/plane.png" alt=""></a>
+
+                        <nav class="nav">
+                            <a class="nav__link" href="/index.html">Home</a>
+                            <a class="nav__link" href="/tickets.html">Tickets</a>
+                            <a class="nav__link" href="/support.html">Support</a>
+                            <button class="nav__link nav__link--btn"><a href="/login.html">Log in</a></button>
+                        </nav>
+
+
+                    </div>
+                </div>
+
+            </header>
+            <hr class="intro">
+
+        </div>
+
+
+
+
+        <div class="container">
+            <h1>Welcome to our site</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quae deleniti repellat quas vero
+                necessitatibus ipsa repellendus perferendis aliquid consectetur molestiae alias quasi rerum nihil omnis
+                dolores provident dolor itaque.</p>
+            <h2>Why we?</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore labore recusandae, deserunt excepturi
+                expedita velit suscipit voluptate tenetur dolorem temporibus aperiam possimus atque asperiores et ut.
+                Quae facere nam distinctio!</p>
+
+
+            <h1>Popular destinations</h1>
+            <div class="destination__gallery">
+
+                <div class="destination__blog">
+                    <a id="hrefDest0" href="/destination.html">
+                        <img class="dest" src="/media/belgrade.jpg" alt="belgrade">
+                        <p class="destination" id="capital0">0</p>
+                        <p class="destination" id="price0">0</p>
+
+                    </a>
+                </div>
+                <div class="destination__blog">
+                    <a id="hrefDest1" href="/destination.html">
+                        <img class="dest" src="/media/london.jpg" alt="london">
+                        <p class="destination" id="capital1">1</p>
+                        <p class="destination" id="price1">1</p>
+
+                    </a>
+                </div>
+
+
+                <div class="destination__blog">
+                    <a id="hrefDest2" href="/destination.html">
+                        <img class="dest" src="/media/paris.jpg" alt="paris">
+                        <p class="destination" id="capital2">2</p>
+                        <p class="destination" id="price2">2</p>
+                    </a>
+                </div>
+
+                <div class="destination__blog">
+                    <a id="hrefDest3" href="/destination.html">
+                        <img class="dest" src="/media/bulgaria.jpg" alt="bulgaria">
+                        <p class="destination" id="capital3">3</p>
+                        <p class="destination" id="price3">3</p>
+                    </a>
+                </div>
+
+                <div class="destination__blog">
+                    <a id="hrefDest4" href="/destination.html">
+                        <img class="dest" src="/media/vienna.jpg" alt="vienna">
+                        <p class="destination" id="capital4">4</p>
+                        <p class="destination" id="price4">4</p>
+                    </a>
+                </div>
+
+                <div class="destination__blog">
+                    <a id="hrefDest5" href="/destination.html">
+                        <img class="dest" src="/media/seoul.jpg" alt="seoul">
+                        <p class="destination" id="capital5">5</p>
+                        <p class="destination" id="price5">5</p>
+                    </a>
+                </div>
+
+
+
+            </div>
+
+            <div class="video">
+                <h1>Welcome on the board.</h1>
+                <iframe
+                    src="https://www.youtube.com/embed/RKOWCGVdsbM?si=hxFlBto9784cZBQy&amp;controls=0&amp;start=23403"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+
+            </div>
+        </div>
+
+
+
+        <div>
+            <hr class="end">
+            <footer>
+                <div class="footer">
+                    <div class="nav__end">
+
+                        <a href="/index.html">Home</a>
+                        <a href="/tickets.html">Tickets</a>
+                        <a href="/support.html">Support</a>
+                        <a href="/contact.html">Contact</a>
+
+
+                    </div>
+                    <div class="buttons">
+                        <div class="button" title="Instagram">
+                            <a href="https://instagram.com">
+                                <img src="instagram-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="button" title="Facebook">
+
+                            <a href="https://facebook.com">
+                                <img src="facebook-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="button" title="LinkedIn">
+                            <a href="https://linkedIn.com">
+                                <img src="internet-linkedln-media-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p id="end">&copy; Sofia Khairullina </p>
+            </footer>
+
+
+        </div>
+    </DIV>
+
+
+    <!-- JS -->
+    <script src="/javascript/main.js"></script>
+    <script>
+        SetIndexData();
+        document.getElementById("end").innerHTML += new Date().getFullYear();;
+    </script>
+
+</body>
+
+</html>

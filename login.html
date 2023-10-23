@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Signup</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <DIV class="div-main">
+        <div>
+
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <a href="/index.html"><img src="/media/plane.png" alt=""></a>
+
+                        <nav class="nav">
+                            <a class="nav__link" href="/index.html">Home</a>
+                            <a class="nav__link" href="/tickets.html">Tickets</a>
+                            <a class="nav__link" href="/support.html">Support</a>
+                            <button class="nav__link nav__link--btn"><a href="/login.html">Log in</a></button>
+
+                        </nav>
+
+
+                    </div>
+                </div>
+
+            </header>
+            <hr class="intro">
+
+        </div>
+
+
+        <p id="info"></p>
+        <section class="container__forms forms">
+            <!-- Log-in Form -->
+            <div class="form login">
+                <div class="form-content">
+                    <h1 class="header">Login</h1>
+
+                    <form action="#" method="get" onsubmit="return validateFormLogin()">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Enter your email" class="input" id="email">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Enter your password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+
+                        <div class="form-link">
+                            <a href="#" class="forgot-pass">Forgot password?</a>
+                        </div>
+
+                        <div class="field button-field">
+                            <button>Login</button>
+                        </div>
+
+                    </form>
+
+                    <div class="form-link">
+                        <span>Don't have an account? <a href="#" class="link signup-link">Sign up</a></span>
+                    </div>
+
+                </div>
+                <div class="line"></div>
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="/media/google-icon.png" alt="google icon" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sign-up Form -->
+            <div class="form signup">
+                <div class="form-content">
+                    <h1 class="header">Sign up</h1>
+
+                    <form action="#" method="get" onsubmit="return validateFormLogin()">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Enter your email" class="input" id="email">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Enter your password" class="password">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Enter your password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+
+                        <div class="field button-field">
+                            <button>Sign up</button>
+                        </div>
+
+                    </form>
+
+                    <div class="form-link">
+                        <span>Already have an account? <a href="#" class="link login-link">Log in</a></span>
+                    </div>
+
+                </div>
+
+                <div class="line"></div>
+
+                <div class="media-options">
+                    <a href="https://google.com" class="field google">
+                        <img src="/media/google-icon.png" alt="google icon" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+
+                <div class="media-options">
+                    <a href="https://facebook.com" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <div>
+            <hr class="end">
+            <footer>
+                <div class="footer">
+                    <div class="nav__end">
+
+                        <a href="/index.html">Home</a>
+                        <a href="/tickets.html">Tickets</a>
+                        <a href="/support.html">Support</a>
+                        <a href="/contact.html">Contact</a>
+
+
+                    </div>
+                    <div class="buttons">
+                        <div class="button" title="Instagram">
+                            <a href="https://instagram.com">
+                                <img src="instagram-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="button" title="Facebook">
+
+                            <a href="https://facebook.com">
+                                <img src="facebook-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="button" title="LinkedIn">
+                            <a href="https://linkedIn.com">
+                                <img src="internet-linkedln-media-svgrepo-com.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p id="end">&copy; Sofia Khairullina </p>
+            </footer>
+
+
+        </div>
+    </DIV>
+
+    <script src="/javascript/main.js"></script>
+    <script>
+        localStorage.getItem(info);
+    </script>
+</body>
+
+</html>
