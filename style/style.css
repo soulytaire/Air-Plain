@@ -229,7 +229,7 @@ p {
 
 /* Login Sign up forms */
 .container__forms {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
