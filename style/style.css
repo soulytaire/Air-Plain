@@ -193,18 +193,16 @@ p {
     line-height: 33px;
 }
 
-.link {
-
+.link-login {
     color: rgba(79, 159, 231, 0.7);
     text-decoration: none;
     transition: all 0.2s linear;
 }
 
-.link:hover {
+.link-login:hover {
     text-decoration: underline;
     color: rgb(42, 146, 236);
 }
-
 
 .footer {
     width: 100%;
