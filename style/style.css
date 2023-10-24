@@ -83,6 +83,7 @@ DIV.div-main {
 iframe {
     width: 640px;
     height: 350px;
+    border: 0;
 }
 
 /* Header
